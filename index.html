@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Text Encryption</title>
+   <!-- Bootstarp Icons -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+   <!-- CSS Links -->
+   <link rel="stylesheet" href="/styles//loader.css">
+   <link rel="stylesheet" href="./styles/index.css">
+   <link rel="stylesheet" href="/styles/Queries.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="container--loader">
+         <div class="loader"></div>
+      </div>
+      <main class="main">
+         <img src="./assets/img/Logo.png" class="logo" alt="Logo">
+         <textarea type="text" class="main__textarea" placeholder="Ingrese el texto aqui"></textarea>
+
+         <div class="container-btn">
+            <p class="container-btn__text">🛈 Solo letras minúsculas y sin acentos</p>
+            <button class="container-btn__encrypt">Encriptar</button>
+            <button class="container-btn__decrypt">Desencriptar</button>
+         </div>
+      </main>
+      <div class="card-container">
+         <div class="card1">
+            <img src="./assets/img/Muñeco.png" class="card-container__img" alt="Muñeco">
+            <h2>Ningún mensaje fue encontrado</h2>
+            <p>Ingresa el texto que desees encriptar o desencriptar</p>
+         </div>
+         <div class="card2">
+            <textarea class="card2__textarea" cols="10" rows="3"></textarea>
+            <button class="card2__btn">Copiar</button>
+         </div>
+      </div>
+   </div>
+   <footer class="footer">
+      <span> Adrian Cortes &copy; 2022 |</span>
+      <span class="icons">
+         <a href="https://www.linkedin.com/in/adrian-cortes/" target="_blank">
+            <li class="icon__Linkeding"><i class="bi bi-linkedin"></i></li>
+         </a>
+         <a href="https://github.com/Adrian-Corttes" target="_blank">
+            <li class="icon__git"><i class="bi bi-github"></i></li>
+         </a>
+      </span>
+   </footer>
+   <script src="./index.js"></script>
+</body>
+
+</html>
